@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Nascar{
+  background-image: url(https://images6.alphacoders.com/315/thumb-1920-315007.jpg);
+ 
+  
+}
+.Formula1{
+
+  background-image: url(https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2021TurkishGPmanuals/Friday/GettyImages-1235761010.jpg);
+}
+main h1,p{
+  color: whitesmoke;
+  font-size: x-large ;
+}
+main .items{
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+height: 150px;
+padding: 50px;
+color: white;
+text-transform: uppercase;}
+footer {
+  padding-top: 50px;
+  text-transform: inherit;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.NissanGTR {
+  
+  background-image: url(https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/gt-r/r35/2_minor_change/overview/19TDIEULHD_GT-R_002.jpg.ximg.l_full_m.smart.jpg);
+}
+
+.row {
+  padding-top : 100px;
+}
+
+
+footer h6 {
+  padding-top: 120px;
+}
